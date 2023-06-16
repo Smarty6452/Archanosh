@@ -1,0 +1,74 @@
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-in {
+    opacity: 1;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid rgb(51, 51, 55);
+    margin-top: -100px;
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .circle:hover {
+    background-color: #ff0000aa;
+  }
+  
+  .circle span {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .rotate-left {
+    transform: rotate(-29deg);
+    transition: transform 2s linear infinite;
+  }
+  
+  .bottle-cap-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .bottle-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .top-44 {
+    margin-top: 44px;
+  }
+  
+
+  .fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: -2px;
+  }
+  
+  .add-to-cart-button {
+    padding: 8px 22px;
+    background-color: #393838;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

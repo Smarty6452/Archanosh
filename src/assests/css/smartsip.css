@@ -1,0 +1,21 @@
+.bg-sip {
+    background: linear-gradient(180deg, #1C5B4F 0%, #1C8E80 100%),
+      linear-gradient(180deg, #004E84 0%, #01ADEB 100%), #184874;
+      z-index: -1;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  .smart-text {
+    font-size: 55px;
+    line-height: 50px;
+  }

@@ -1,0 +1,75 @@
+.signup-btn {
+    background-color: #1C5B4F;
+}
+
+/* footer.css */
+
+.bottom-wrap {
+    background-color: white;
+    color: #ffffff; /* Set the text color to white */
+    padding-top: 10px;
+  }
+  
+  .bottom-wrap ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .bottom-wrap ul li {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rotate 4s linear infinite; /* Add rotation animation */
+  }
+  
+  .bottom-wrap ul li {
+    animation: rotate 4s linear infinite;
+    animation-delay: 1s;
+  }
+  
+  .bottom-wrap ul li:first-child {
+    animation-direction: reverse;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+  
+ 
+  .wave {
+    background-image: url("../images//wave2.png");
+   background-size: contain;
+   z-index: 10;
+   animation: waveAnimation 9s linear infinite; 
+  }
+
+  @keyframes waveAnimation {
+    0% {
+      background-position: 100% 50%; 
+    }
+    100% {
+      background-position: 0% 50%; 
+    }
+  }
+
+  footer {
+    z-index: -1;
+  }
+  
